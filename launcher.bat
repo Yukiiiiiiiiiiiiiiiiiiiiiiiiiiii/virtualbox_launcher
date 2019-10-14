@@ -1,16 +1,17 @@
 @echo off
 
-REM SET PROJECT_DIR=vagrantƒtƒ@ƒCƒ‹‚ª’u‚¢‚Ä‚ ‚é‰ÓŠ‚ÌƒpƒXB‚±‚±‰Â•Ï
-SET PROJECT_DIR=C:\vagrant_several_env\centos7.5
+REM SET PROJECT_DIR=vagrantãƒ•ã‚¡ã‚¤ãƒ«ãŒç½®ã„ã¦ã‚ã‚‹ç®‡æ‰€ã®ãƒ‘ã‚¹ã€‚ã“ã“å¯å¤‰
+SET PROJECT_DIR=C:\Users\noma\Desktop\railstutorial.jp_starter_kit
+REM SET PROJECT_DIR=C:\vagrant_several_env\centos7.5
 
 echo ***Vagrant Launcher ***
 echo Launcher is executeing...
 
 cd %PROJECT_DIR%
 
-REM vagrant upƒRƒ}ƒ“ƒh‚ÌÀs
+REM vagrant upã‚³ãƒãƒ³ãƒ‰ã®å®Ÿè¡Œ
 echo vagrant is starting up...
 vagrant up
 
-REM PROJECT_DIR‚É‘JˆÚ‚µƒvƒƒ“ƒvƒg‚ğŒp‘±
+REM PROJECT_DIRã«é·ç§»ã—ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‚’ç¶™ç¶š
 cmd /k cd %PROJECT_DIR%
